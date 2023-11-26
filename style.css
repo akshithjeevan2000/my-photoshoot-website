@@ -1,0 +1,66 @@
+*{padding:0; margin:0;box-sizing:border-box;}
+body{
+    overflow-x:hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/filler.jpg);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.carousel-item img{
+    object-fit:cover;
+    width:100%;
+    height:100vh;
+    
+} 
+.card-body img{
+    min-width:50%;
+    max-height:200px;
+}
+
+.small-title{
+    color:white;
+    font-weight: bold;
+    
+    font-size: 6vw;
+    
+  -webkit-text-stroke-color:rgb(36, 36, 36);
+  -webkit-text-stroke-width: .5px;
+  font-family:Arial;
+}
+@media(min-width: 750px){
+    .small-title {
+        font-size: 36px;
+    }
+}
+.services{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/background5new.jpg);
+    color:white;
+}
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/background5new.jpg);
+    color:white;
+}
+.team{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/background5new.jpg); 
+    color:white; 
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/background5new.jpg);
+     color:white;  
+     align-items: center;
+     justify-content: center;
+   
+}
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(b5img/background5new.jpg);
+    color:white;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
